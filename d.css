@@ -1,0 +1,133 @@
+*{
+   
+    box-sizing: border-box;
+
+}
+body{
+font-family: sans-serif;
+background-color: #273469;
+ margin: 0%;
+    padding: 0%;
+
+}
+
+
+
+ul{
+
+    list-style: none;
+}
+a{
+
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.04);
+    background-color: aliceblue;
+}
+.logo h1{
+   height: 35px;
+    
+}
+
+nav.menu{
+
+    display: flex;
+    
+}
+nav .menu li a{
+    height: 40px;
+line-height: 43px;
+justify-content: space-around;
+align-items: center;
+margin: 0px;
+padding: 0px 22px;
+display: block;
+font-size: 0.8rem;
+text-transform: uppercase;
+font-weight: 500;
+color: rgb(39, 41, 184);
+letter-spacing: 1px;
+
+}
+
+.search{
+
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 20px;
+
+}
+
+.search input{
+    width: 100%;
+    height: 30px;
+    border:none;
+    outline:none;
+    background-color: transparent;
+
+}
+.search i{
+    color: blueviolet;
+
+}
+
+nav .menu li a:hover{
+
+    background-color: orangered;
+    color: yellow;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.09);
+transition: all ease 0.2s;
+
+}
+.abc{
+
+    padding-top: 200px;
+}
+
+#main{
+    padding-top: 400px;
+    background-color: aliceblue;
+}
+
+.showbox{
+width: 430px;
+height: 250px;
+box-shadow: 5px 15px 30px rgb(39, 41, 184);
+border-radius: 10px;
+margin: 0px 20px 10px 20px;
+overflow: hidden;
+
+}
+
+.showbox img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: top;
+
+}
+
+.show1{
+
+    padding-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(251, 249, 253);
+}
